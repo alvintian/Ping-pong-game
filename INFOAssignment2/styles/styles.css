@@ -1,0 +1,51 @@
+ *{
+     margin:0px;
+     padding: 0px;
+}
+ #container{
+     height:500px;
+     width:900px;
+     border-style: solid;
+}
+ #ball{
+     position:absolute;
+     left:450px;
+     top:250px;
+     height:30px;
+     width:30px;
+     background-color:red;
+     border-radius:50%;
+}
+ #player{
+     position:absolute;
+     left:0px;
+     top:200px;
+     width:10px;
+     height:100px;
+     background-color:black;
+     float:left;
+}
+ #CPU{
+     position:absolute;
+     left:895px;
+     top:200px;
+     width:10px;
+     height:100px;
+     background-color:black;
+}
+ #start-btn{
+     display: inline;
+     padding: 10px 20px;
+     margin-top:10px;
+     color:#000;
+     background-color:#fff;
+     border:2px solid #000;
+     border-radius:10px;
+     font-weight:900;
+}
+ #start-btn:hover{
+     background-color:#eee;
+}
+ h1{
+     display: inline-block;
+}
